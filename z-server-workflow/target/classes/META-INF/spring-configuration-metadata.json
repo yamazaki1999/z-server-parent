@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "z.server.workflow.Main",
+      "name": "test.yml",
+      "type": "z.server.workflow.Main"
+    }
+  ],
+  "properties": []
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="z-server-constant-model" />
+        <module name="z-server-constant-web" />
+        <module name="z-server-permission-field" />
+        <module name="z-server-permission-line" />
+        <module name="z-server-resources-entity" />
+        <module name="z-server-resources-mapper" />
+        <module name="z-server-resources-service" />
+        <module name="z-server-resources-service-impl" />
+        <module name="z-server-resources-shell" />
+        <module name="z-server-resources-web" />
+        <module name="z-server-security" />
+        <module name="z-server-utils-common" />
+        <module name="z-server-utils-office-excel" />
+        <module name="z-server-utils-office-word" />
+        <module name="z-server-utils-security" />
+        <module name="z-server-workflow" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

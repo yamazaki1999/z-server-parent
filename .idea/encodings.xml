@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-constant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-constant/z-server-constant-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-constant/z-server-constant-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-permission" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-permission/z-server-permission-field" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-permission/z-server-permission-line" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-shell" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office-excel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office-word" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-workflow" charset="UTF-8" />
+  </component>
+</project>

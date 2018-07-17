@@ -1,0 +1,2 @@
+spring.profiles.active=@env@
+key:123456

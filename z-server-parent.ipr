@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="war" name="shd-web:war">
+      <output-path>D:/wenwen/shd-web2/shd-web/target</output-path>
+      <root id="archive" name="shd.war">
+        <element id="artifact" artifact-name="shd-web:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="shd-web:war exploded">
+      <output-path>D:/wenwen/shd-web2/shd-web/target/shd</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="shd-web" />
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="D:/wenwen/shd-web2/shd-web/target/shd/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="shd-web/web/Web" />
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="z-server-constant-model" />
+        <module name="z-server-constant-web" />
+        <module name="z-server-permission-field" />
+        <module name="z-server-permission-line" />
+        <module name="z-server-resources-entity" />
+        <module name="z-server-resources-mapper" />
+        <module name="z-server-resources-service" />
+        <module name="z-server-resources-service-impl" />
+        <module name="z-server-resources-shell" />
+        <module name="z-server-resources-web" />
+        <module name="z-server-security" />
+        <module name="z-server-utils-common" />
+        <module name="z-server-utils-office-excel" />
+        <module name="z-server-utils-office-word" />
+        <module name="z-server-utils-security" />
+        <module name="z-server-workflow" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-first" target="1.5" />
+      <module name="shd-web" target="1.5" />
+      <module name="z-server-constant" target="1.8" />
+      <module name="z-server-constant-model" target="1.8" />
+      <module name="z-server-constant-web" target="1.8" />
+      <module name="z-server-parent" target="1.8" />
+      <module name="z-server-permission" target="1.8" />
+      <module name="z-server-permission-field" target="1.8" />
+      <module name="z-server-permission-line" target="1.8" />
+      <module name="z-server-resource" target="1.8" />
+      <module name="z-server-resources" target="1.8" />
+      <module name="z-server-resources-entity" target="1.8" />
+      <module name="z-server-resources-mapper" target="1.8" />
+      <module name="z-server-resources-service" target="1.8" />
+      <module name="z-server-resources-service-impl" target="1.8" />
+      <module name="z-server-resources-shell" target="1.8" />
+      <module name="z-server-resources-web" target="1.8" />
+      <module name="z-server-security" target="1.8" />
+      <module name="z-server-utils" target="1.8" />
+      <module name="z-server-utils-common" target="1.8" />
+      <module name="z-server-utils-office" target="1.8" />
+      <module name="z-server-utils-office-excel" target="1.8" />
+      <module name="z-server-utils-office-word" target="1.8" />
+      <module name="z-server-utils-security" target="1.8" />
+      <module name="z-server-workflow" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-constant" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-constant/z-server-constant-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-constant/z-server-constant-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-permission" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-permission/z-server-permission-field" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-permission/z-server-permission-line" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-shell" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-resources/z-server-resources-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office-excel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office-word" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-utils/z-server-utils-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/z-server-workflow" charset="UTF-8" />
+    <file url="file://D:/wenwen/shd-web2/shd-web" charset="UTF-8" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://D:/wenwen/shd-web2/shd-web" />
+  </component>
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+      <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
+        <scope name="Tests" level="WARNING" enabled="true">
+          <option name="ignoreAnonymousInnerClasses" value="false" />
+          <option name="superClassString" value="" />
+        </scope>
+        <scope name="Production" level="WARNING" enabled="true">
+          <option name="ignoreAnonymousInnerClasses" value="false" />
+          <option name="superClassString" value="" />
+        </scope>
+        <scope name="Scratches and Consoles" level="WARNING" enabled="true">
+          <option name="ignoreAnonymousInnerClasses" value="false" />
+          <option name="superClassString" value="" />
+        </scope>
+        <scope name="Problems" level="WARNING" enabled="true">
+          <option name="ignoreAnonymousInnerClasses" value="false" />
+          <option name="superClassString" value="" />
+        </scope>
+        <scope name="Project Files" level="WARNING" enabled="true">
+          <option name="ignoreAnonymousInnerClasses" value="false" />
+          <option name="superClassString" value="" />
+        </scope>
+        <option name="ignoreAnonymousInnerClasses" value="false" />
+        <option name="superClassString" value="" />
+      </inspection_tool>
+    </profile>
+    <version value="1.0" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/z-server-constant/z-server-constant-controller/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="Palette2">
+    <group name="Swing">
+      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+      </item>
+      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
+        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+        <initial-values>
+          <property name="text" value="Button" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="RadioButton" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="CheckBox" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+        <initial-values>
+          <property name="text" value="Label" />
+        </initial-values>
+      </item>
+      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+          <preferred-size width="150" height="-1" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+          <preferred-size width="150" height="50" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+          <preferred-size width="200" height="200" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+      </item>
+      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+      </item>
+      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+          <preferred-size width="-1" height="20" />
+        </default-constraints>
+      </item>
+      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+      </item>
+      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+      </item>
+    </group>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/z-server-constant/z-server-constant.iml" filepath="$PROJECT_DIR$/z-server-constant/z-server-constant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-constant/z-server-constant-model/z-server-constant-model.iml" filepath="$PROJECT_DIR$/z-server-constant/z-server-constant-model/z-server-constant-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-constant/z-server-constant-web/z-server-constant-web.iml" filepath="$PROJECT_DIR$/z-server-constant/z-server-constant-web/z-server-constant-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-parent.iml" filepath="$PROJECT_DIR$/z-server-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-permission/z-server-permission.iml" filepath="$PROJECT_DIR$/z-server-permission/z-server-permission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-permission/z-server-permission-field/z-server-permission-field.iml" filepath="$PROJECT_DIR$/z-server-permission/z-server-permission-field/z-server-permission-field.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-permission/z-server-permission-line/z-server-permission-line.iml" filepath="$PROJECT_DIR$/z-server-permission/z-server-permission-line/z-server-permission-line.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-resources/z-server-resources.iml" filepath="$PROJECT_DIR$/z-server-resources/z-server-resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-resources/z-server-resources-entity/z-server-resources-entity.iml" filepath="$PROJECT_DIR$/z-server-resources/z-server-resources-entity/z-server-resources-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-resources/z-server-resources-mapper/z-server-resources-mapper.iml" filepath="$PROJECT_DIR$/z-server-resources/z-server-resources-mapper/z-server-resources-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-resources/z-server-resources-service/z-server-resources-service.iml" filepath="$PROJECT_DIR$/z-server-resources/z-server-resources-service/z-server-resources-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-resources/z-server-resources-service-impl/z-server-resources-service-impl.iml" filepath="$PROJECT_DIR$/z-server-resources/z-server-resources-service-impl/z-server-resources-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-resources/z-server-resources-shell/z-server-resources-shell.iml" filepath="$PROJECT_DIR$/z-server-resources/z-server-resources-shell/z-server-resources-shell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-resources/z-server-resources-web/z-server-resources-web.iml" filepath="$PROJECT_DIR$/z-server-resources/z-server-resources-web/z-server-resources-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-security/z-server-security.iml" filepath="$PROJECT_DIR$/z-server-security/z-server-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-utils/z-server-utils.iml" filepath="$PROJECT_DIR$/z-server-utils/z-server-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-utils/z-server-utils-common/z-server-utils-common.iml" filepath="$PROJECT_DIR$/z-server-utils/z-server-utils-common/z-server-utils-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office.iml" filepath="$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office-excel/z-server-utils-office-excel.iml" filepath="$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office-excel/z-server-utils-office-excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office-word/z-server-utils-office-word.iml" filepath="$PROJECT_DIR$/z-server-utils/z-server-utils-office/z-server-utils-office-word/z-server-utils-office-word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-utils/z-server-utils-security/z-server-utils-security.iml" filepath="$PROJECT_DIR$/z-server-utils/z-server-utils-security/z-server-utils-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/z-server-workflow/z-server-workflow.iml" filepath="$PROJECT_DIR$/z-server-workflow/z-server-workflow.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="libraryTable">
+    <library name="Maven: ch.qos.logback:logback-classic:1.1.11">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: ch.qos.logback:logback-core:1.1.11">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:druid-spring-boot-starter:1.1.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/druid-spring-boot-starter/1.1.2/druid-spring-boot-starter-1.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/druid-spring-boot-starter/1.1.2/druid-spring-boot-starter-1.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/druid-spring-boot-starter/1.1.2/druid-spring-boot-starter-1.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:druid:1.1.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/druid/1.1.2/druid-1.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/druid/1.1.2/druid-1.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/druid/1.1.2/druid-1.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.alibaba:fastjson:1.2.41">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/fastjson/1.2.41/fastjson-1.2.41.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/fastjson/1.2.41/fastjson-1.2.41-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/alibaba/fastjson/1.2.41/fastjson-1.2.41-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.jsqlparser:jsqlparser:1.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/jsqlparser/jsqlparser/1.1/jsqlparser-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/jsqlparser/jsqlparser/1.1/jsqlparser-1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/jsqlparser/jsqlparser/1.1/jsqlparser-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.pagehelper:pagehelper-spring-boot-autoconfigure:1.2.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper-spring-boot-autoconfigure/1.2.3/pagehelper-spring-boot-autoconfigure-1.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper-spring-boot-autoconfigure/1.2.3/pagehelper-spring-boot-autoconfigure-1.2.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper-spring-boot-autoconfigure/1.2.3/pagehelper-spring-boot-autoconfigure-1.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.pagehelper:pagehelper-spring-boot-starter:1.2.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper-spring-boot-starter/1.2.3/pagehelper-spring-boot-starter-1.2.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper-spring-boot-starter/1.2.3/pagehelper-spring-boot-starter-1.2.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper-spring-boot-starter/1.2.3/pagehelper-spring-boot-starter-1.2.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.pagehelper:pagehelper:5.1.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.github.virtuald:curvesapi:1.04">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-beanutils:commons-beanutils:1.9.3">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-codec:commons-codec:1.10">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-codec/commons-codec/1.10/commons-codec-1.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-collections:commons-collections:3.2.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-io:commons-io:1.3.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-lang:commons-lang:2.6">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-lang/commons-lang/2.6/commons-lang-2.6-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: commons-logging:commons-logging:1.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: log4j:log4j:1.2.14">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/log4j/log4j/1.2.14/log4j-1.2.14-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/log4j/log4j/1.2.14/log4j-1.2.14-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: mysql:mysql-connector-java:5.1.41">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/mysql/mysql-connector-java/5.1.41/mysql-connector-java-5.1.41-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.sourceforge.jexcelapi:jxl:2.6.12">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.ant:ant-launcher:1.8.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.ant:ant:1.8.2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/ant/ant/1.8.2/ant-1.8.2-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/ant/ant/1.8.2/ant-1.8.2-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-collections4:4.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.commons:commons-lang3:3.7">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi-excelant:3.17">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-excelant/3.17/poi-excelant-3.17.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-excelant/3.17/poi-excelant-3.17-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-excelant/3.17/poi-excelant-3.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi-ooxml-schemas:3.17">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi-ooxml:3.17">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.poi:poi:3.17">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi/3.17/poi-3.17.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi/3.17/poi-3.17-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.14">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/tomcat/tomcat-jdbc/8.5.14/tomcat-jdbc-8.5.14.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/tomcat/tomcat-jdbc/8.5.14/tomcat-jdbc-8.5.14-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/tomcat/tomcat-jdbc/8.5.14/tomcat-jdbc-8.5.14-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.tomcat:tomcat-juli:8.5.14">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/tomcat/tomcat-juli/8.5.14/tomcat-juli-8.5.14.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/tomcat/tomcat-juli/8.5.14/tomcat-juli-8.5.14-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/tomcat/tomcat-juli/8.5.14/tomcat-juli-8.5.14-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.aspectj:aspectjrt:1.8.9">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/aspectj/aspectjrt/1.8.9/aspectjrt-1.8.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/aspectj/aspectjrt/1.8.9/aspectjrt-1.8.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/aspectj/aspectjrt/1.8.9/aspectjrt-1.8.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.aspectj:aspectjweaver:1.8.9">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.bouncycastle:bcprov-jdk15on:1.59">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/bouncycastle/bcprov-jdk15on/1.59/bcprov-jdk15on-1.59-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.codehaus.groovy:groovy-all:2.4.10">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/codehaus/groovy/groovy-all/2.4.10/groovy-all-2.4.10.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/codehaus/groovy/groovy-all/2.4.10/groovy-all-2.4.10-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/codehaus/groovy/groovy-all/2.4.10/groovy-all-2.4.10-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:1.3.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.0/mybatis-spring-boot-autoconfigure-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.0/mybatis-spring-boot-autoconfigure-1.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.0/mybatis-spring-boot-autoconfigure-1.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.0">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.0/mybatis-spring-boot-starter-1.3.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.0/mybatis-spring-boot-starter-1.3.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.0/mybatis-spring-boot-starter-1.3.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis:mybatis-spring:1.3.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.mybatis:mybatis:3.4.4">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/mybatis/mybatis/3.4.4/mybatis-3.4.4-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.25">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:jul-to-slf4j:1.7.25">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:log4j-over-slf4j:1.7.25">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.slf4j:slf4j-api:1.7.25">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.3.RELEASE/spring-boot-autoconfigure-1.5.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-configuration-processor:1.5.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-configuration-processor/1.5.3.RELEASE/spring-boot-configuration-processor-1.5.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-configuration-processor/1.5.3.RELEASE/spring-boot-configuration-processor-1.5.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-configuration-processor/1.5.3.RELEASE/spring-boot-configuration-processor-1.5.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:1.5.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter-jdbc/1.5.3.RELEASE/spring-boot-starter-jdbc-1.5.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter-jdbc/1.5.3.RELEASE/spring-boot-starter-jdbc-1.5.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter-jdbc/1.5.3.RELEASE/spring-boot-starter-jdbc-1.5.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter-logging/1.5.3.RELEASE/spring-boot-starter-logging-1.5.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter-logging/1.5.3.RELEASE/spring-boot-starter-logging-1.5.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter-logging/1.5.3.RELEASE/spring-boot-starter-logging-1.5.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot-starter:1.5.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter/1.5.3.RELEASE/spring-boot-starter-1.5.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter/1.5.3.RELEASE/spring-boot-starter-1.5.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot-starter/1.5.3.RELEASE/spring-boot-starter-1.5.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework.boot:spring-boot:1.5.3.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/boot/spring-boot/1.5.3.RELEASE/spring-boot-1.5.3.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-aop:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-aop/4.3.8.RELEASE/spring-aop-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-aop/4.3.8.RELEASE/spring-aop-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-aop/4.3.8.RELEASE/spring-aop-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-beans:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-beans/4.3.8.RELEASE/spring-beans-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-context-support:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-context-support/4.3.8.RELEASE/spring-context-support-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-context-support/4.3.8.RELEASE/spring-context-support-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-context-support/4.3.8.RELEASE/spring-context-support-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-context:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-core:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-expression:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-expression/4.3.8.RELEASE/spring-expression-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-expression/4.3.8.RELEASE/spring-expression-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-expression/4.3.8.RELEASE/spring-expression-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-jdbc:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-tx:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-web:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.springframework:spring-webmvc:4.3.8.RELEASE">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.yaml:snakeyaml:1.17">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: stax:stax-api:1.0.1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/stax/stax-api/1.0.1/stax-api-1.0.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.5.3/repository/stax/stax-api/1.0.1/stax-api-1.0.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+  </component>
+</project>
